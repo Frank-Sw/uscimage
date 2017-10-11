@@ -45,3 +45,5 @@ Moreover, this package provides extra arguments that the current default beamer 
 2.  short\_institute: Which allows passing the optional short institute names to `\institute[]{}`
 
 3.  short\_author: Which allows passing the optional short authors to `\author[]{}`
+
+An example can be seen in the compiled [vignettes](inst/doc) of the package.

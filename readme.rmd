@@ -46,4 +46,4 @@ Moreover, this package provides extra arguments that the current default beamer 
 
 3.  short_author: Which allows passing the optional short authors to `\author[]{}`
 
-
+An example can be seen in the compiled [vignettes](inst/doc) of the package.
