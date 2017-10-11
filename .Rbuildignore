@@ -2,3 +2,5 @@
 ^\.Rproj\.user$
 ^readme\.md$
 ^readme\.rmd$
+^\.travis\.yml$
+^appveyor\.yml$

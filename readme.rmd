@@ -3,6 +3,8 @@ title: uscimage template package
 output: rmarkdown::github_document
 ---
 
+[![Travis-CI Build Status](https://travis-ci.org/USCbiostats/uscimage.svg?branch=master)](https://travis-ci.org/USCbiostats/uscimage) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/USCbiostats/uscimage?branch=master&svg=true)](https://ci.appveyor.com/project/USCbiostats/uscimage)
+
 This package provides a set of wrappers to be used with `rmarkdown` in which personalized templates and configurations are set automatically to produce documents for the USC IMAGE project
 
 ## Installation

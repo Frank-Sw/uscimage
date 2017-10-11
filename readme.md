@@ -1,6 +1,8 @@
 uscimage template package
 ================
 
+[![Travis-CI Build Status](https://travis-ci.org/USCbiostats/uscimage.svg?branch=master)](https://travis-ci.org/USCbiostats/uscimage) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/USCbiostats/uscimage?branch=master&svg=true)](https://ci.appveyor.com/project/USCbiostats/uscimage)
+
 This package provides a set of wrappers to be used with `rmarkdown` in which personalized templates and configurations are set automatically to produce documents for the USC IMAGE project
 
 Installation
@@ -22,12 +24,12 @@ For now, we have a template for `beamer_presentation`, which in our case is call
 title: "My fancy P01 Beamer presentation"
 short_title: 
 author: "George G. Vega Yon"
+short_author: Vega Yon
 date: "October 5, 2017"
 institute:
   - Department of Preventive Medicine
   - University of Southern California
 short_institute: USC
-short_author: Vega Yon
 output:
   uscimage::beamer_USCImage:
     includes:
