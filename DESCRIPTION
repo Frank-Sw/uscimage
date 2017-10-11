@@ -1,0 +1,12 @@
+Package: uscimage
+Type: Package
+Title: A set of templates for USC IMAGE project to be used with rmarkdown
+Version: 0.1.0
+Authors@R: person("George", "Vega Yon", email = "vegayon@usc.edu", role = c("aut", "cre"))
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: rmarkdown
+RoxygenNote: 6.0.1
