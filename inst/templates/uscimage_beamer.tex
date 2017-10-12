@@ -240,10 +240,30 @@ $if(logo)$
 \logo{\includegraphics{$logo$}}
 $endif$
 
+% $if(page-number)$
+% \addtobeamertemplate{navigation symbols}{}{%
+%     \usebeamerfont{footline}%
+%     \usebeamercolor[fg]{white}%
+%     \hspace{1em}%
+%     \insertpagenumber/\insertpresentationendpage
+%
+%     \vspace{.75cm}
+% }
+% $endif$
+
 \begin{document}
 
 $if(title)$
-\frame{\titlepage}
+\frame{
+\titlepage
+% $if(page-number)$
+% \thispagestyle{empty}
+% $endif$
+
+$if(page-number)$
+\setbeamertemplate{footline}[page number]
+$endif$
+}
 $endif$
 
 $for(include-before)$

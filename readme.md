@@ -17,12 +17,23 @@ devtools::install_github("USCBiostats/uscimage")
 Example
 -------
 
-For now, we have a template for `beamer_presentation`, which in our case is called `beamer_USCImage`. To use this with your Rmarkdown document, you simply need to set `output: uscimage::beamer_USCImage`. The following example shows this adding an extra option that is passed to `rmarkdown::beamer_presentation`, the `includes` option:
+For now, we have a template for `beamer_presentation`, which in our case is called `beamer_USCImage`. To use this with your Rmarkdown document, you simply need to set `output: uscimage::beamer_USCImage`. The simplest way of doing this is by replacing the `output` argument in the header of the rmd file. So instead of using `beamer_presentation`, we use `uscimage::beamer_USCImage` as the following example
 
 ``` rmd
 ---
 title: "My fancy P01 Beamer presentation"
-short_title: 
+author: "George G. Vega Yon"
+date: "October 5, 2017"
+output: uscimage::beamer_USCImage
+---
+```
+
+The next example shows this adding an extra option that is passed to `rmarkdown::beamer_presentation`, the `includes` option, and a couple of other arguments:
+
+``` rmd
+---
+title: "My fancy P01 Beamer presentation"
+short_title: "Fancy P01"
 author: "George G. Vega Yon"
 short_author: Vega Yon
 date: "October 5, 2017"
